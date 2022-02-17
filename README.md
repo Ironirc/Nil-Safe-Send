@@ -1,9 +1,7 @@
 # Nil-Safe-Send
-Inspired by the new Javascript language feature: "optional chaining"
+Super minimalistic non-obtrusive utility to access nested models in a slimmer and arguably more legible manner, while maintaining debuggability.  
+Loosely inspired by the new Javascript language feature: "optional chaining"  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
-
-It works in a non obtrusive manner, only claiming "_" (underscore) as unique global method name.
-It's open for discussion if this is acceptable or not.
 
 ## Examples
 ```Smalltalk
@@ -26,7 +24,13 @@ Metacello new
 ```
 
 ## How it works
-Sending and underscore to a receiver, just returns the receiver, or in case of nil, returns a special intermediary object.
-This intermediary object is the sole instance of MessageSwallower (subclass of UndefinedObject)
-It's doesNotUnderstand returns nil.
+Sending and underscore to a receiver, just returns the receiver, or in case of nil, returns a special intermediary object.  
+This intermediary object is the sole instance of MessageSwallower (subclass of UndefinedObject). It's doesNotUnderstand returns nil.  
 This makes the effect very local and controllable
+
+## To be discussed
+Is it ok to globally claim underscore '_' as mehod name?
+
+## Todo
+- Look for better examples
+- More and better tests
