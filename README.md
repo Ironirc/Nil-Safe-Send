@@ -24,13 +24,12 @@ Metacello new
 ```
 
 ## How it works
-Sending and underscore to a receiver, just returns the receiver, or in case of nil, returns a special intermediary object.
-This intermediary object is the sole instance of MessageSwallower (subclass of UndefinedObject)
-It's doesNotUnderstand returns nil.
+Sending and underscore to a receiver, just returns the receiver, or in case of nil, returns a special intermediary object.  
+This intermediary object is the sole instance of MessageSwallower (subclass of UndefinedObject). It's doesNotUnderstand returns nil.  
 This makes the effect very local and controllable
 
 ## To be discussed
-Is it ok to take underscore '_' ?
+Is it ok to globally claim underscore '_' as mehod name?
 
 ## Todo
 - Look for better examples
