@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Nil-Safe-Send",
+	"category" : "Nil-Safe-Send-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"street",
-		"city"
+		"name"
 	],
-	"name" : "NssAddress",
+	"name" : "NssCountry",
 	"type" : "normal"
 }
