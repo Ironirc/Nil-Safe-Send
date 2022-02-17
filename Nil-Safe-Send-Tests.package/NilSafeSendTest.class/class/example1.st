@@ -1,5 +1,5 @@
-tests
-test2
+examples
+example1
 
 	| model |
 	Transcript clear.
@@ -13,7 +13,7 @@ test2
 			         nil.
 			         { 165. nil } }.
 		         nil }.
-		
+
 	1 to: 3 do: [ :personIdx | 
 		| person |
 		person := model at: personIdx.
