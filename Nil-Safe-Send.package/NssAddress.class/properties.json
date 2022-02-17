@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Nil-Safe-Send",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"street",
+		"city"
+	],
+	"name" : "NssAddress",
+	"type" : "normal"
+}

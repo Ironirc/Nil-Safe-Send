@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Nil-Safe-Send",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstName",
+		"lastName",
+		"address",
+		"mother"
+	],
+	"name" : "NssPerson",
+	"type" : "normal"
+}
