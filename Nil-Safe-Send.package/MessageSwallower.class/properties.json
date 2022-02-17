@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "IvoRoefs 2/17/2022 10:11",
+	"super" : "UndefinedObject",
+	"category" : "Nil-Safe-Send",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SoleInstance"
+	],
+	"instvars" : [ ],
+	"name" : "MessageSwallower",
+	"type" : "normal"
+}
