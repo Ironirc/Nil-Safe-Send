@@ -1,5 +1,5 @@
 # Nil-Safe-Send
-Super minimalistic non-obtrusive utility to access nested models in a slimmer and arguably more legible manner.  
+Super minimalistic non-obtrusive utility to access nested models in a slimmer and arguably more legible manner, while maintaining debuggability.  
 Loosely inspired by the new Javascript language feature: "optional chaining"  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
 
