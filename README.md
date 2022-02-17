@@ -30,8 +30,8 @@ It's doesNotUnderstand returns nil.
 This makes the effect very local and controllable
 
 ## To be discussed
-Is it ok to take underscore '__'
+Is it ok to take underscore '_' ?
 
 ## Todo
--Look for better examples
--More and better tests
+- Look for better examples
+- More and better tests
