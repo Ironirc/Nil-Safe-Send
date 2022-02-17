@@ -4,5 +4,5 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec 
-			package: 'Optional-Chaining';
+			package: 'Nil-Safe-Send';
 			group: 'default' with: #('Nil-Safe-Send') ]
