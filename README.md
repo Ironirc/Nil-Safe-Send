@@ -29,7 +29,7 @@ This intermediary object is the sole instance of MessageSwallower (subclass of U
 This makes the effect very local and controllable
 
 ## To be discussed
-Is it ok to globally claim underscore '_' as mehod name?
+Is it ok to claim underscore '_' as global method name?
 
 ## Todo
 - Look for better examples
