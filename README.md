@@ -13,7 +13,7 @@ myArray _ second _ squared isNil.  "=> prints true"
 ```
 
 ## Installation
-To install this library you clone this repository and load BaselineOfPharoOracleCallInterface.
+To install this library you clone this repository and load BaselineOfNilSafeSend.
 This can be done using the Iceberg UI tools and with the following script:
 
 ```Smalltalk
